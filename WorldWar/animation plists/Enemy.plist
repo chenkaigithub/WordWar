@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>eatenAnimation</key>
+	<dict>
+		<key>animationFrames</key>
+		<string>1</string>
+		<key>delay</key>
+		<real>0.6</real>
+		<key>framePrefix</key>
+		<string>enemyEaten</string>
+	</dict>
+	<key>atackAnimation</key>
+	<dict>
+		<key>animationFrames</key>
+		<string>1,2</string>
+		<key>delay</key>
+		<real>0.4</real>
+		<key>framePrefix</key>
+		<string>atack</string>
+	</dict>
+	<key>walkAnimation</key>
+	<dict>
+		<key>animationFrames</key>
+		<string>1,2,3</string>
+		<key>delay</key>
+		<real>0.18</real>
+		<key>framePrefix</key>
+		<string>walk</string>
+	</dict>
+	<key>spawnAnimation</key>
+	<dict>
+		<key>animationFrames</key>
+		<string>1,1,2,2,2,2,3,4</string>
+		<key>delay</key>
+		<real>0.2</real>
+		<key>framePrefix</key>
+		<string>spawn</string>
+	</dict>
+	<key>walkDownAnimation</key>
+	<dict>
+		<key>animationFrames</key>
+		<string>1,2,3,4,5</string>
+		<key>delay</key>
+		<real>0.1</real>
+		<key>framePrefix</key>
+		<string>walkDown</string>
+	</dict>
+	<key>dyingAnimation</key>
+	<dict>
+		<key>animationFrames</key>
+		<string>1,2,3</string>
+		<key>delay</key>
+		<real>0.2</real>
+		<key>framePrefix</key>
+		<string>dying</string>
+	</dict>
+</dict>
+</plist>
